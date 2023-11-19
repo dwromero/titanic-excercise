@@ -1,51 +1,23 @@
 ## Excercises with the Titanic Dataset
 
-
 #### Installation
 
-To install the required dependencies, we recomend you to install Anaconda and run the following line:
-```
-conda env create -f conda_requirements.txt
-```
-This will create a conda environment which you can activate by running
-```
-conda activate breinstein
-```
+For this exercises we will use Google Colab. As a result, we won't need to install anything locally.
 
-###### Manual Installation
+1. Go to https://colab.research.google.com/
+2. Once here, go to the GitHub tab and pass the URL of this repository, i.e., https://github.com/dwromero/titanic-excercise/
+3. Here, you should be able to see a file called `DataMining_PracticalSession.ipynb`. Open it, and you are ready to go (after uploading the data to Colab).
 
-This environment can also be created by following the following lines:
-```
-conda create -n breinstein python=3.7
-conda activate breinstein
-conda install numpy
-conda install pandas
-conda install -c anaconda scikit-learn
-conda install -c conda-forge jupyterlab
-conda install -c conda-forge matplotlib
-```
-After this is performed please activate your environment as previously explained.
+##### Uploading the data
 
+Unfortunately, Colab does not automatically import the data we need for this exercise, and therefore, we need to do this online. Luckily, this is very easy!
 
-###### Using an already installed python / jupyter distribution
+1. Download this repository and extract it locally in your computer.
+2. In Colab, go to the `Bestanden` tab (with a folder icon) on the left side of the screen (undernead a key icon). And there select upload.
+3. Upload the files within the folder `data` in the extracted repository.
 
-If you already use Python, please make sure the following packages are installed:
-```
-numpy
-pandas
-scikit-learn
-jupyterlab (or jupyter notebook)
-matplotlib
-```
-This can be done by simply running
-```
-pip install package_name
-```
+Now, you are ready to go!
 
-#### Running the files
+#### Checking everything
+Please check that everything is working properly before continuing. You should be able to run the first 3 code cells of the Jupyter Notebook without any problems. If you have any issues, please let us know.
 
-Once you activate your environment, you can run on the terminal
-```
-jupyter notebook (or jupyter lab).
-```
-This will open an screen in which you can see the `DataMining_PracticalSession.ipynb` file. This is the main file we will use in the workshop. 
